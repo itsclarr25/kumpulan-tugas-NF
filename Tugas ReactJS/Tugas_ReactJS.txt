@@ -1,0 +1,3 @@
+Ini adalah link GitHub untuk tugas reactJS 1-3, bisa dilihat dari history commit
+
+https://github.com/itsclarr25/tugasgit-clarin/tree/main/tokobukuclarin

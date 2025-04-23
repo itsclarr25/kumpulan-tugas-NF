@@ -1,0 +1,73 @@
+/* Reset default */
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f9f9f9; /* Warna latar belakang halaman */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Fieldset container */
+fieldset {
+    background-color: #0b4f28; /* Hijau tua */
+    padding: 20px;
+    border-radius: 12px;
+    width: 250px; /* Lebih kecil biar sesuai desain */
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border: none;
+}
+
+/* Legend (judul) */
+legend {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color: #0b4f28; /* Sama dengan fieldset */
+    padding: 8px 12px;
+    border-radius: 8px;
+    width: 250px;
+    margin: 10px auto;
+}
+
+/* List */
+ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Tombol */
+li {
+    background: #a17b60; /* Warna coklat */
+    padding: 10px 20px;
+    border-radius: 10px; /* Membulat sempurna */
+    transition: transform 0.2s, box-shadow 0.2s;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: center;
+    width: 85%;
+    margin: auto;
+}
+
+/* Hover efek */
+li:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Link */
+a {
+    text-decoration: none;
+    color: white;
+    display: block;
+}
